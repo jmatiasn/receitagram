@@ -10,6 +10,7 @@
     <color name="primaria_variante">#cb2c00</color>
     <color name="secundaria">#11c3ff</color>
     <color name="secundaria_variante">#0056a6</color>
+    <color name="recipe_background">#cce6ff</color>
 
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
