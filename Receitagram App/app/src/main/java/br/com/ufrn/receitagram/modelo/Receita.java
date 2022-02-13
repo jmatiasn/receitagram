@@ -9,16 +9,16 @@ public class Receita implements Serializable {
     private Long id;
     private String nome;
     private int rendimentoEmPorcoes;
-    private String[] ingredientes;
-    private String[] modoDePreparo;
+    private String ingredientes;
+    private String modoDePreparo;
     private String autorNomeESobrenome;
     private Date dataCriacao;
 
     public Receita(Long id,
                    String nome,
                    int rendimentoEmPorcoes,
-                   String[] ingredientes,
-                   String[] modoDePreparo,
+                   String ingredientes,
+                   String modoDePreparo,
                    String autorNomeESobrenome,
                    Date dataCriacao){
         this.id = id;
@@ -28,6 +28,10 @@ public class Receita implements Serializable {
         this.modoDePreparo = modoDePreparo;
         this.autorNomeESobrenome = autorNomeESobrenome;
         this.dataCriacao = dataCriacao;
+    }
+
+    public Receita() {
+
     }
 
     public Long getId() {
@@ -54,19 +58,19 @@ public class Receita implements Serializable {
         this.rendimentoEmPorcoes = rendimentoEmPorcoes;
     }
 
-    public String[] getIngredientes() {
+    public String getIngredientes() {
         return ingredientes;
     }
 
-    public void setIngredientes(String[] ingredientes) {
+    public void setIngredientes(String ingredientes) {
         this.ingredientes = ingredientes;
     }
 
-    public String[] getModoDePreparo() {
+    public String getModoDePreparo() {
         return modoDePreparo;
     }
 
-    public void setModoDePreparo(String[] modoDePreparo) {
+    public void setModoDePreparo(String modoDePreparo) {
         this.modoDePreparo = modoDePreparo;
     }
 
