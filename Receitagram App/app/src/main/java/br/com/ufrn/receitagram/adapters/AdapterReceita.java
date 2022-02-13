@@ -39,9 +39,9 @@ public class AdapterReceita extends RecyclerView.Adapter<AdapterReceita.MinhaVie
 
         Receita receita = mReceitas.get(position);
         holder.tvNomeReceita.setText(receita.getNome());
-        holder.tvRendimentoEmPorcoes.setText("Rendimento em porções: "
-                + String.valueOf(receita.getRendimentoEmPorcoes())
-        );
+        holder.tvRendimentoEmPorcoes.setText("Porções: "
+                + String.valueOf(receita.getRendimentoEmPorcoes()));
+        holder.tvAutor.setText(receita.getAutorNomeESobrenome());
     }
 
     @Override
