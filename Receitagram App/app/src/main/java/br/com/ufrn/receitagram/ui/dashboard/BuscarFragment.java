@@ -12,7 +12,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import br.com.ufrn.receitagram.databinding.FragmentDashboardBinding;
 
-public class DashboardFragment extends Fragment {
+public class BuscarFragment extends Fragment {
 
     private FragmentDashboardBinding binding;
 
